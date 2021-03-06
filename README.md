@@ -5,10 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Flask is Running in Localhost:5000 and Following are the End-Points of Flask API
 
 1. /add_movie {Method => POST}
-  1. Add a new movie 
+    1. Add a new movie 
    ```{titile:'movie_name',rating:NUMBER}```
 2. /movies  {Method =>GET}
-  1. Get all the movies
+    1. Get all the movies
 
 In the project directory, you can run:
 

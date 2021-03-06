@@ -4,15 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Flask is Running in Localhost:5000 and Following are the End-Points of Flask API
 
-<!-- Custom JavaScript files set in YAML front matter -->
-{% for js in page.customjs %}
-<script async type="text/javascript" src="{{ js }}"></script>
-{% endfor %}
-
-
 1. /add_movie {Method => POST}
   1. Add a new movie 
-   ```javascript{titile:'movie_name',rating:NUMBER}```
+   ```{titile:'movie_name',rating:NUMBER}```
 2. /movies  {Method =>GET}
   1. Get all the movies
 
